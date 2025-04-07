@@ -3,6 +3,9 @@ import Connection from "./Database/db.js";
 import router from "./Router/api.js";
 import cors from "cors";
 import path from "path";
+import dotenv from "dotenv"
+
+dotenv.config()
 
 const app = express();
 const PORT = 5000;
